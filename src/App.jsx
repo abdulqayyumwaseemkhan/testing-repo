@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import NotFound from "./components/NotFound";
 import CardCollection from "./pages/CardCollection";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const obj1 = [
@@ -68,6 +69,7 @@ function App() {
             }
         </tbody>
       </table> */}
+      <Footer />
     </BrowserRouter>
   );
 }
